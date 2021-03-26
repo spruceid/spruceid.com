@@ -1,4 +1,9 @@
 [[redirects]]
+from = "https://www.spruceid.com/*"
+to = "https://site.spruceid.com/:splat"
+status = 200
+
+[[redirects]]
 from = "/*"
 to = "https://www.spruceid.com/:splat"
 status = 301
