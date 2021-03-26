@@ -2,3 +2,8 @@
 from = "/*"
 to = "https://www.spruceid.com/:splat"
 status = 301
+
+[[redirects]]
+from = "https://deploy-preview-3--spruceid.netlify.app/*"
+to = "https://rust.didkit.dev/:splat"
+status = 200
