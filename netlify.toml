@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "https://www.spruceid.com/:splat"
+status = 301
