@@ -1,9 +1,6 @@
 [[redirects]]
 from = "https://deploy-preview-3--spruceid.netlify.app/*"
-to = "http://75.2.70.75/:splat"
-[redirects.headers]
-Host = "www.spruceid.com"
-status = 200
+to = "https://site.spruceid.com/:splat"
 
 [[redirects]]
 from = "/*"
