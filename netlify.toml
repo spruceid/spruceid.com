@@ -7,3 +7,14 @@ status = 200
 from = "/*"
 to = "https://www.spruceid.com/:splat"
 status = 301
+
+[[headers]]
+for = "/.well-known/*"
+[headers.values]
+Content-Type = "application/json"
+Access-Control-Allow-Origin = "*"
+
+[[headers]]
+for = "/.well-known/matrix/*"
+[headers.values]
+Content-Type = "application/json"
