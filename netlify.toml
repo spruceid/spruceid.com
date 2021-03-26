@@ -1,5 +1,5 @@
 [[redirects]]
-from = "https://deploy-preview-3--spruceid.netlify.app/*"
+from = "https://deploy-preview-3--spruceid.netlify.app/didkit/*"
 to = "https://rust.didkit.dev/:splat"
 status = 200
 
